@@ -38,7 +38,7 @@ const menu = {
 };
 
 console.log(sget(menu, ["style", "color"])); // "black"
-console.log(sget(menu, ["tooltip", "text"])); // "null" instead of access error
+console.log(sget(menu, ["tooltip", "text"])); // undefined instead of access error
 ```
 
 ## License

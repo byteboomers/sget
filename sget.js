@@ -1,6 +1,11 @@
 module.exports = (object, path) =>
-  path.reduce(
-    (parent, property) =>
-      parent && parent[property] ? parent[property] : null,
-    object
-  );
+  path.reduce((parent, property) => {
+    if (parent === undefined) {
+      return undefined;
+    }
+    const value = parent[property];
+    if (value === undefined) {
+      return undefined;
+    }
+    return value;
+  }, object);
