@@ -1,0 +1,16 @@
+{
+  "name": "sget-js",
+  "version": "0.0.0",
+  "description": "Safely access nested javascript object properties",
+  "main": "sget.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Botre/sget.git"
+  },
+  "author": "Bjorn Krols",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Botre/sget/issues"
+  },
+  "homepage": "https://github.com/Botre/sget#readme"
+}

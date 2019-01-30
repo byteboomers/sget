@@ -25,6 +25,14 @@ const age =
     : null;
 ```
 
+## Installation
+
+```bash
+npm install --save sget-js
+```
+
+[npm package link](https://www.npmjs.com/package/sget-js)
+
 ## Usage
 
 ```javascript

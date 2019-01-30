@@ -1,5 +1,5 @@
-module.exports = (object, path) =>
-  path.reduce((parent, property) => {
+module.exports = function(object, path) {
+  return path.reduce(function(parent, property) {
     if (parent === undefined) {
       return undefined;
     }
@@ -9,3 +9,4 @@ module.exports = (object, path) =>
     }
     return value;
   }, object);
+};
