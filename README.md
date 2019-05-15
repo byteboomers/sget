@@ -1,6 +1,6 @@
 # sget
 
-> Safely access nested javascript object properties
+Safely access nested javascript object properties
 
 ## About
 
@@ -48,11 +48,3 @@ const menu = {
 console.log(sget(menu, ["style", "color"])); // "black"
 console.log(sget(menu, ["tooltip", "text"])); // undefined instead of access error
 ```
-
-## License
-
-[MIT](http://opensource.org/licenses/MIT)
-
-## Twitter
-
-[Follow me on Twitter](https://twitter.com/KrolsBjorn)
