@@ -1,10 +1,10 @@
 # sget
 
-Safely access nested javascript object properties
+Safely access nested JavaScript object properties
 
 ## About
 
-A utility method to safely access nested javascript object properties.
+A utility method to safely access nested JavaScript object properties.
 
 It enables you to write this:
 

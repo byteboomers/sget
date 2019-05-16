@@ -1,7 +1,7 @@
 {
   "name": "sget-js",
   "version": "1.0.1",
-  "description": "Safely access nested javascript object properties",
+  "description": "Safely access nested JavaScript object properties",
   "author": "Bjorn Krols (https://byteboomers.com)",
   "license": "MIT",
   "keywords": [],
