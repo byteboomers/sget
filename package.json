@@ -1,7 +1,8 @@
 {
   "name": "sget-js",
-  "version": "1.0.1",
   "description": "Safely access nested JavaScript object properties",
+  "private": false,
+  "version": "1.0.1",
   "author": "Bjorn Krols (https://byteboomers.com)",
   "license": "MIT",
   "keywords": [],
@@ -13,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/byteboomers/sget/issues"
   },
-  "main": "sget.js"
+  "main": "./src/sget.js",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
 }
