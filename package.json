@@ -16,6 +16,8 @@
   },
   "main": "./src/sget.js",
   "scripts": {},
+  "husky": {},
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "peerDependencies": {}
 }
